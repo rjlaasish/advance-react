@@ -4,6 +4,7 @@ import './App.css';
 import Button from './hoc/hoc2/Button';
 import Hovering from './hoc/hoc2/Hovering';
 import InputCount from './hoc/hoc2/InputCount';
+import ButtonOne from './hoc/hoc3/components/ButtonOne';
 
 function App() {
   return (
@@ -15,11 +16,17 @@ function App() {
       {/* hoc1 */}
 
       {/* hoc2 */}
-    <br/>
+      {/* <br/>
       <Button/>
       <Hovering/>
-      <InputCount/>
+      <InputCount/> */}
       {/* hoc2 */}
+
+      
+      {/* hoc3 */}
+      <br/>
+      <ButtonOne disable/>
+      {/* hoc3 */}
 
     </div>
   );
