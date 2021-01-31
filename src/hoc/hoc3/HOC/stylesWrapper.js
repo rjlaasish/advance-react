@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/CommonStyles'
 
 
@@ -14,10 +13,11 @@ const translateProps=(props)=>{
 }
 
 
-export default (WrappedComponent) => {
+const wrapperfunction= (WrappedComponent) => {
     return function wrapRenderer(args){
         return WrappedComponent(translateProps(args))
     }
 
 
 }
+export default wrapperfunction;

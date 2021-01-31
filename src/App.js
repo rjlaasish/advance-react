@@ -1,10 +1,5 @@
 import './App.css';
-// import Rahul from './hoc/hoc1/Rahul';
-// import Priti from './hoc/hoc1/Priti';
-import Button from './hoc/hoc2/Button';
-import Hovering from './hoc/hoc2/Hovering';
-import InputCount from './hoc/hoc2/InputCount';
-import ButtonOne from './hoc/hoc3/components/ButtonOne';
+import Ref1 from './refs/Ref1';
 
 function App() {
   return (
@@ -25,8 +20,13 @@ function App() {
       
       {/* hoc3 */}
       <br/>
-      <ButtonOne disable/>
+      {/* <ButtonOne disable/> */}
       {/* hoc3 */}
+
+
+      {/* refs */}
+      <Ref1/>
+      {/* refs */}
 
     </div>
   );
